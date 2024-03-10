@@ -1,0 +1,42 @@
+footer {
+
+	height: 560px;
+	background-color: var(--bg-footer-clr);
+	color: var(--txt-white);
+	h4 {
+		color: var(--txt-violet);
+	}
+	ul {
+		list-style: none;
+		padding-left: 0;
+		a {
+			font-size: .9rem;
+			color: var(--txt-white);
+			&:hover {
+				color: var(--txt-purple)
+			}
+		}
+	}
+	.container {
+		
+		.upper-footer {
+
+			border-bottom: 1px solid var(--bg-purple-clr);
+			.social {
+
+				i {
+					font-size: 1.3rem;
+					margin: 10px 30px 0 0;
+					cursor: pointer;
+					&:hover {
+						color: var(--txt-purple);
+					}
+				}
+				.flag img{
+					width: 20px;
+					margin-right: 10px;
+				}
+			}
+		}
+	}
+}

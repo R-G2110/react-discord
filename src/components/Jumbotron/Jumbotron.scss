@@ -1,0 +1,28 @@
+.jumbotron {
+	height: 920px;
+	background-color: var(--bg-header-clr);
+	overflow: hidden;
+	position: relative;
+	color: var(--txt-white);
+	.jumbotron-img {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+		z-index: -1;
+		
+	}
+	.jumbotron-overlay {
+		margin: 0 auto;
+		position: absolute;
+		text-align: center;
+		bottom: 300px;
+		
+		.content {
+			width: 37%;
+			margin: 50px auto;
+		}
+		.bg-l-white span {
+			margin-left: 10px;
+		}
+	}
+}

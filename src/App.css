@@ -1,0 +1,129 @@
+:root {
+	--bg-header-clr: #255EE9;
+	--bg-footer-clr: #23272A;
+	
+	--bg-gray-clr: #F5F5F5;
+	--bg-l-black-clr: #23272A;
+	--bg-purple-clr: #5865F2;
+	--bg-violet-clr: #787fce;
+	--bg-white-clr: white;
+	
+	--txt-white: white;
+	--txt-black: #23272A;
+	--txt-purple: #5865F2;
+	--txt-violet: #787fce;
+}
+
+body {
+	font-size: 1.1rem;
+  font-family: 'Noto Sans', sans-serif;
+  position: relative;
+}
+
+h1 {
+  font-size: 3rem;
+	font-weight: 700;
+}
+
+h2 {
+  font-size: 2.5rem;
+	font-weight: 700;
+}
+
+.custom-container {
+	width: 35% !important;
+	margin: 0 auto ;
+}
+
+.custom-btn {
+	margin: 10px;
+	border: none;
+	min-width: 80px;
+	border-radius: 50px;
+
+}
+
+.btn-sm {
+	padding: 5px 20px;
+}
+
+.btn-xl {
+	width: 300px;
+	padding: 15px 30px;
+}
+
+img {
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo {
+	cursor: pointer;
+}
+
+.big-column {
+  width: 65%;
+	padding: 20px;
+}
+
+.small-column {
+  width: 35%;
+	margin-top: 60px;
+}
+
+.wave {
+  height: 50px;
+	& img{
+		height: 100%;
+		width: 100%;
+		opacity: .04;
+	}
+}
+
+section {
+	padding: 100px 0 ;
+}
+
+.bg-gray {
+	background-color: var(--bg-gray-clr);
+}
+
+.bg-purple {
+	background-color: var(--bg-purple-clr);
+	color: var(--txt-white);
+	&:hover {
+		background-color: var(--bg-violet-clr);
+	}
+}
+
+.bg-violet {
+	background-color: var(--bg-violet-clr);
+	color: var(--txt-white);
+	&:hover {
+		background-color: var(--bg-purple-clr);
+	}
+}
+
+.bg-l-black {
+	background-color: var(--bg-l-black-clr);
+	color: var(--txt-white);
+	&:hover {
+		color: var(--txt-purple);
+		background-color: var(--bg-white-clr);
+	}
+}
+
+.bg-l-white {
+	background-color: var(--bg-white-clr);
+	&:hover {
+		color: var(--txt-purple);
+	}
+	
+}
+
+.upside-down img{
+  transform: rotateX(180deg);
+}

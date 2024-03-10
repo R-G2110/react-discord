@@ -1,0 +1,19 @@
+header {
+  height: 80px;
+  background-color: var(--bg-header-clr);
+  color: white;
+  width: 100%;
+  z-index: 998;
+  position: fixed;
+  .logo {
+    cursor: pointer;
+  }
+  ul {
+    li {
+      cursor: pointer;
+      &:hover {
+        color: var(--txt-black);
+      }
+    }
+  }
+}
